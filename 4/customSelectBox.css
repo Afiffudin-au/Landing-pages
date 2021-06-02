@@ -1,0 +1,123 @@
+*{
+  list-style: none;
+}
+
+.wrapper .title{
+  font-weight: 700;
+  font-size: 12px;
+  color: #010101;
+  font-weight: 600;
+}
+.wrapper p{
+  margin: 0 !important;
+}
+.select_wrap{
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  margin: 15px auto;
+  position: relative;
+  user-select: none;
+}
+.select_wrap{
+  font-size: 12px;
+  color: #010101;
+  font-weight: 600;
+}
+
+.select_wrap .default_option{
+  padding: 0;
+  background-color: #E8F7FE;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.select_wrap .default_option li{
+    padding: 13px 20px;
+}
+
+.select_wrap .default_option:before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-color: transparent transparent #555555 #555555;
+    transform: rotate(-45deg);
+}
+
+.select_wrap .select_ul{
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  display: none;
+  padding: 0;
+}
+
+.select_wrap .select_ul li{
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.select_wrap .select_ul li:first-child:hover{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:last-child:hover{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:hover{
+  background: #34e27d;
+}
+
+.select_wrap .option{
+  display: flex;
+  align-items: center;
+}
+
+.select_wrap .option .icon{
+  background: url('./asset/United\ States\ of\ America.png') no-repeat 0 0;
+	width: 21px;
+	height: 16px;
+  margin-right: 15px;
+}
+.select_wrap .option .icon2{
+  background: url('./asset/BTC.png') no-repeat 0 0;
+	width: 21px;
+	height: 20px;
+  margin-right: 15px;
+}
+.select_wrap .option.pizza .icon{
+  background-position: 0 0;
+}
+
+.select_wrap .option.burger .icon{
+  background-position:  0 -35px;
+}
+
+.select_wrap .option.ice .icon{
+  background-position: 0 -72px;
+}
+
+.select_wrap .option.fries .icon{
+ background-position: 0 -111px;
+  width: 25px;
+}
+
+.select_wrap.active .select_ul{
+  display: block;
+}
+
+.select_wrap.active .default_option:before{
+  top: 25px;
+  transform: rotate(-225deg);
+}

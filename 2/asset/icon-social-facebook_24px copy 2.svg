@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="icon_social_instagram_24px" data-name="icon/social/instagram_24px" d="M4.71,16a4.708,4.708,0,0,1-3.355-1.258A4.644,4.644,0,0,1,0,11.291V4.677A4.419,4.419,0,0,1,4.677,0h6.646A4.593,4.593,0,0,1,14.71,1.323,4.622,4.622,0,0,1,16,4.677v6.646a4.617,4.617,0,0,1-1.323,3.419A4.763,4.763,0,0,1,11.291,16Z" transform="translate(0 0.672)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="icon_social_facebook_24px_copy_2" data-name="icon/social/facebook_24px copy 2" transform="translate(0 -0.672)">
+    <path id="icon_social_instagram_24px-2" data-name="icon/social/instagram_24px" d="M4.71,16a4.708,4.708,0,0,1-3.355-1.258A4.644,4.644,0,0,1,0,11.291V4.677A4.419,4.419,0,0,1,4.677,0h6.646A4.593,4.593,0,0,1,14.71,1.323,4.622,4.622,0,0,1,16,4.677v6.646a4.617,4.617,0,0,1-1.323,3.419A4.763,4.763,0,0,1,11.291,16Z" transform="translate(0 0.672)" fill="#fff"/>
+  </g>
+</svg>

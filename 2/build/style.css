@@ -1,0 +1,291 @@
+body{
+  overflow-x: hidden;
+}
+.navbar .navbar-nav li a{
+  color: #373737 !important;
+  font-size: 14px;
+  margin-right: 30px;
+}
+.jumbotron{
+  background: transparent !important;
+}
+.jumbotron__content{
+  width: 632px;
+}
+.jumbotron__shareNavigation {
+  margin-top: 60px !important;
+}
+.jumbotron__shareNavigation  a {
+  margin-right: 20px;
+}
+.jumbotron__apply{
+  background-color: #717CFF !important;
+  width: 262px;
+  height: 64;
+}
+.jumbotron-container{
+  position: relative;
+}
+
+.jumbotron .jumbotron__girl{
+  position: absolute;
+  top: -77px;
+  left: 60%;
+}
+.jumbotron object{
+  z-index: -999;
+  position: absolute;
+  top: 15px;
+  right: -52%;
+  overflow-x: hidden;
+  width: 1030px;
+}
+.about-us{
+  margin-top: 80px;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+}
+.aboutUs__Featured{
+  margin-top: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 23px;
+  opacity: 73%;
+  color: #373737;
+}
+.carousel-indicators {
+  bottom: -100px !important;
+  left: 0;
+  border-radius: 50%;
+}
+.carousel-indicators li {
+  display: inline-block; 
+  background-color:none;
+  background-color:#30a8db !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+.our-servce{
+  min-height: 900px;
+  margin-top: 150px;
+}
+.outService__p{
+  font-size: 37px;
+  letter-spacing: 0.1px;
+  color: #373737;
+}
+.outService__desc{
+  font-size: 22px;
+  color: #7D7D7D;
+}
+.our-servce .cardBox{
+  text-align: left;
+}
+.our-servce .cardBox .cardContent{
+  padding-top: 30px;
+}
+.our-servce .cardBox .cardContent p{
+  font-size: 16px;
+  color: #37474F;
+  opacity: 72%;
+}
+.our-servce .cardBox .cardContent h5{
+  font-size: 24px;
+  color: #37474F;
+}
+.news{
+  min-height: 850px;
+  background-color: #FAFAFA;
+}
+.news .news__desc{
+  font-size: 22px;
+  color: #7D7D7D;
+}
+.news .newsCard .newsCard__imgThumb{
+  object-fit: fill;
+  width: 100%;
+}
+.news .newsCard .cardContent{
+  padding:20px;
+  box-shadow:  0 0 2px 0 #979797;
+}
+.news .news__apply{
+  background-color: #717CFF !important;
+  border-radius: 11px;
+  margin-top: 100px;
+}
+.upcoming-event .date{
+  color: #717CFF;
+  border-radius: 11px;
+  width: 76px;
+  height: 76px;
+  background-color: #515ac73b;
+  text-align: center;
+}
+.upcoming-event .date .number-date{
+  font-size: 27px;
+}
+.upcoming-event .date .mount-date{
+  font-size:18px;
+}
+.upcoming-event .header{
+  font-size: 24px;
+}
+.upcoming-event{
+  height: 550px;
+}
+.upcoming-event .carousel-inner h5{
+  color: #37474F;
+  font-size: 24px;
+}
+.upcoming-event .carousel-inner p{
+  color: #37474F;
+  opacity: 72%;
+  font-size: 16px;
+}
+.countries{
+  height: 750px;
+}
+.countries h5{
+  color: #373737;
+  font-size: 37px;
+}
+.countries .countries__desc{
+  color: #37474F;
+  opacity: 72%;
+  font-size: 16px;
+}
+.countries .countries__header{
+  color: #7D7D7D;
+  font-size: 22;
+}
+.countries h6{
+ color: #37474F;
+ font-size: 25px;
+}
+.testimonial{
+  height: 650px;
+}
+.testimonial .header-desc{
+  margin-bottom: 90px;
+}
+.testimonial h5{
+  font-size: 37px;
+  color: #37474F;
+}
+.testimonial .testimonial__header{
+  color: #7D7D7D;
+  font-size: 22;
+} 
+.testimonial__card{
+  padding: 30px;
+}
+.testimonial .testimonial__name{
+  color: #37474F;
+  font-size: 22px;
+}
+.testimonial .testimonial__status{
+  font-size: 18px;
+  opacity: 65%;
+  color: #37474F;
+}
+.testimonial .testimonial__decs{
+  font-size: 18px;
+  opacity: 72%;
+  color: #37474F;
+}
+.experimental .tes{
+  position: relative;
+}
+.experimental .hidden{
+  position: absolute;
+  position: absolute;
+  right: -445px;
+  bottom: 0;
+  width: 503px;
+}
+.join{
+  height: 220px;
+}
+.join__headerCaption{
+  font-size: 37px;
+  color: #252525;
+}
+.join__apply{
+  width: 262px;
+  background-color: #717CFF !important;
+}
+.footer{
+  background-color: #717CFF;
+  color: #EEEEEE;
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .jumbotron .jumbotron__girl{
+    position: absolute;
+    top: 200px;
+    left: 33%;
+    object-fit: contain;
+    background-position: center;
+  }
+  .jumbotron object{
+    z-index: -999;
+    position: absolute;
+    top: 266px;
+    right: -97%;
+    overflow-x: hidden;
+    width: 1030px;
+    max-height: 500px;
+  }
+  .about-us{
+    margin-top: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+  }
+  .navbar .navbar-nav li a{
+    margin-right: 0;
+  }
+  .our-servce .cardBox{
+    text-align: center;
+  }
+  .countries{
+    text-align: center;
+    margin-top: 150px;
+  }
+}
+@media (max-width: 768px) { 
+  .upcoming-event{
+    min-height: 662px;
+  }
+  .navbar .navbar-nav li a{
+    margin-right: 0;
+  }
+  .countries{
+    text-align: center;
+    min-height: 1309px;
+    margin-top: 150px;
+  }
+  .testimonial {
+    height: 944px;
+}
+}
+
+@media (max-width: 992px) { 
+  .navbar .navbar-nav li a{
+    margin-right: 0;
+  }
+  .our-servce{
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+  .countries .countries__imgThumb{
+    width: 220px;
+    object-fit: contain;
+  }
+ }

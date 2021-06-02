@@ -1,0 +1,54 @@
+/* content-about */
+.content-about-us.translateX{
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.content-about-us.show{
+  opacity: 1;
+  transition: .5s all ease;
+  transform: translateX(0);
+}
+
+/* content-image */
+.content-about-image.translateX{
+  opacity: 0;
+  transform: translateX(100%);
+}
+.content-about-image.show{
+  opacity: 1;
+  transition: .5s all ease;
+  transform: translateX(0);
+}
+
+/* our-product */
+.Our-Product.opacity{
+  opacity: 0;
+}
+.Our-Product.show{ 
+  transition: .5s all ease;
+  opacity: 1;
+}
+
+/* achievement */
+.achievement-completed.opacity{
+  transform: scale(0);
+  opacity: 0;
+}
+.achievement-completed.show{ 
+  transition: .5s all ease;
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* sponsors */
+.sponsors-content.translateX{
+  opacity: 0;
+  transform: scale(0);
+  transform: translateX(-100%);
+}
+.sponsors-content.show{
+  opacity: 1;
+  transform: scale(1);
+  transform: translateX(0);
+  transition: .5s all ease;
+}

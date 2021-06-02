@@ -1,0 +1,158 @@
+img{
+  object-fit: contain;
+}
+.navbar .container .navbar-brand{
+  font-weight: bold;
+}
+.navbar .container .navbar-brand-border{
+  width: 80px;
+  border-bottom: 5px solid black;
+}
+.navbar{
+  z-index: 1;
+}
+.navbar .container a {
+  color: black !important;
+  font-size: 11;
+  font-weight: bold;
+}
+.jumbotron{
+  background-position: center;
+  object-fit: contain;
+  min-height: 750px;
+  background-image: url('./pesan.jpg');
+  margin-top: -60px;
+}
+.jumbotron .container{
+  max-width: 780px;
+  height: 271px;
+  margin: 0;
+}
+.jumbotron .container .display-4{
+  font-size: 80px;
+  font-weight: 300;
+}
+.jumbotron .container .lead{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.about-us .content-about-image > img{
+  object-fit: contain;
+}
+.about-us .content-about-us{
+  padding-top: 70px;
+  text-align: left;
+}
+.content-about-image{
+  padding-top:20px;
+  width: 545px;
+  height: 450px;
+  position: relative;
+}
+.content-about-image .image1 , .content-about-image .image1{
+  position: absolute;
+}
+.content-about-image .image1{
+  left: 50%;
+  top: 25%;
+}
+.Our-Product h1{
+  font-weight: bold;
+  font-size: 33px;
+}
+.Our-Product p{
+  font-weight: bold;
+  font-size: 14px;
+}
+.Our-Product .img-Big{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.achievement{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1D1D1D;
+  color: white;
+  height: 333px;
+}
+.achievement p{
+  font-size: 18px;
+}
+.achievement h4{
+  font-size: 45px;
+  font-weight: bold;
+}
+.subscribe h1{
+  font-size: 33px;
+  font-weight: bold;
+}
+.subscribe h4{
+  font-weight: 300;
+  font-size: 20;
+}
+.subscribe p{
+  font-size: 14;
+  font-weight: 300;
+}
+.subscribe input , .subscribe button{
+  border-radius: 24px;
+}
+.sponsors{
+  background-color: #F3F7F8;
+  height: 273px;
+}
+.foooter{
+  height: 298px;
+  background-color: #1D1D1D;
+  color: white;
+}
+.foooter .foooter__Nippy{
+  font-size: 11;
+  font-weight: bold;
+}
+.foooter__allIcon img{
+  width: 40px;
+  background: transparent;
+  margin-left: 10px;
+}
+@media (max-width: 576px) {
+  .jumbotron{
+    margin-top: -10px;
+  }
+  .about-us .container.center-mobile{
+    text-align: center;
+    margin: auto;
+  }
+  .Our-Product .img-big{
+    width: 100%;
+    object-fit: contain;
+  }
+  .Our-Product .all-img-thumb{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+  .content-about-image{
+    padding-top:20px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .Our-Product .img-Big{
+    width:70%;
+  }
+  .Our-Product .all-img-thumb img{
+    margin-top: 20px;
+    width: 70%;
+  }
+}
+@media(max-width:992px){
+  .content-about-image .image1{
+    left: 50%;
+    top: 25%;
+  }
+}

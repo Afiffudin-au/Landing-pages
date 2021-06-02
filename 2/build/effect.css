@@ -1,0 +1,67 @@
+.university-img.translateX{
+  opacity: 0;
+  transform: translateX(-100%) scale(0);
+}
+.university-img.show{
+  transition: .5s all ease;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.cardBox.translateX{
+  letter-spacing: 20px;
+  opacity: 0;
+  transform: translateX(-100%) scale(0);
+}
+.cardBox.show{
+  letter-spacing: 0;
+  transition: .5s all ease;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.newsCard.opacity{
+  transform: scale(0);
+  opacity: 0;
+}
+.newsCard.show{
+  transition: .5s all ease;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.upcoming-event-date.translateY{
+  opacity: 0;
+  transform: translateY(-100%) scale(0);
+}
+.upcoming-event-date.show{
+  transition: .5s all ease;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.countries__imgThumb.translateY{
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.countries__imgThumb.show{
+  transition: .5s all ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.testimonial__card.opacity{
+  opacity: 0;
+}
+.testimonial__card.show{
+  transition: .5s all ease;
+  opacity: 1;
+}
+
+.join.opacity{
+  opacity: 0;
+}
+.join.show{
+  transition: .5s all ease;
+  opacity: 1;
+}
