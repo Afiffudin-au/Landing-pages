@@ -48,22 +48,55 @@ body {
   margin-top: 20px;
   letter-spacing: 1px;
 }
-
-.stats {
+.about {
   margin-top: 80px;
 }
-.stats .img-user {
+.about .stats {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 27px 33px 0px;
+  background: #ffffff;
+  min-height: 150px;
+  align-items: center;
+}
+.about .stats .img-user {
   margin-right: 30px;
 }
-.stats .number {
+.about .stats .number {
   font-weight: bold;
   font-size: 25px;
 }
-.stats .title {
+.about .stats .title {
   font-weight: normal;
   font-size: 20px;
 }
 
+.about .features p {
+  margin: 0 !important;
+}
+.about .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #0b132a;
+}
+.about .sub-title {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+}
+.about .features img {
+  margin-right: 10px;
+}
+.about .features p {
+  color: #4f5665;
+  font-weight: normal;
+  font-size: 14px;
+}
+.about .features {
+  display: block;
+}
 @media (min-width: 360px) {
   .jumbotron {
     text-align: center;
@@ -77,20 +110,30 @@ body {
   .jumbotron .illustration {
     margin-top: 30px;
   }
-  .stats .number {
+  .about .stats .number {
     font-size: 15px;
   }
-  .stats .title {
+  .about .stats .title {
     font-size: 13px;
   }
-  .stats .stats-col {
+  .about .stats .stats-col {
     flex-direction: column;
     text-align: center;
   }
-  .stats .stats-col img {
+  .about .stats .stats-col img {
     margin: 0;
   }
+  .about .desc {
+    text-align: center;
+  }
+
+  .about .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
 @media (min-width: 576px) {
   .jumbotron .title {
     font-size: 35px;
@@ -98,16 +141,16 @@ body {
   .jumbotron .sub-title {
     font-size: 16px;
   }
-  .stats .number {
+  .about .stats .number {
     font-size: 16px;
   }
-  .stats .title {
+  .about .stats .title {
     font-size: 14px;
   }
-  .stats .stats-col {
+  .about .stats .stats-col {
     flex-direction: row;
   }
-  .stats .stats-col img {
+  .about .stats .stats-col img {
     margin-right: 10px;
   }
 }
@@ -132,10 +175,16 @@ body {
   .jumbotron .illustration {
     margin-top: 0;
   }
-  .stats .number {
+  .about .stats .number {
     font-size: 25px;
   }
-  .stats .title {
+  .about .stats .title {
     font-size: 20px;
+  }
+  .about .desc {
+    text-align: left;
+  }
+  .about .features {
+    display: block;
   }
 }
