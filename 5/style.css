@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.navbar .nav-item a {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+}
+.navbar .container .sign-up {
+  border: 1px solid #f53855;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f53855;
+  width: 150px;
+  height: 45px;
+}
+.navbar .container .sign-in {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 16px;
+}
