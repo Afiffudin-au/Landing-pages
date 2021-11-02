@@ -7,6 +7,12 @@ body {
   font-size: 16px;
   color: #4f5665;
 }
+.navbar .container .sign-in {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 5px;
+}
 .navbar .container .sign-up {
   border: 1px solid #f53855;
   font-weight: 500;
@@ -15,8 +21,121 @@ body {
   width: 150px;
   height: 45px;
 }
-.navbar .container .sign-in {
-  color: #0b132a;
+
+.jumbotron {
+  margin-top: 50px;
+}
+.jumbotron .title {
+  font-style: normal;
   font-weight: 500;
+  font-size: 50px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+.jumbotron .sub-title {
+  font-weight: 400;
   font-size: 16px;
+  color: #4f5665;
+}
+.jumbotron .btn-get-started {
+  width: 250px;
+  height: 60px;
+  background-color: #f53838;
+  color: white;
+  font-size: 16;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.stats {
+  margin-top: 80px;
+}
+.stats .img-user {
+  margin-right: 30px;
+}
+.stats .number {
+  font-weight: bold;
+  font-size: 25px;
+}
+.stats .title {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media (min-width: 360px) {
+  .jumbotron {
+    text-align: center;
+  }
+  .jumbotron .title {
+    font-size: 30px;
+  }
+  .jumbotron .sub-title {
+    font-size: 14px;
+  }
+  .jumbotron .illustration {
+    margin-top: 30px;
+  }
+  .stats .number {
+    font-size: 15px;
+  }
+  .stats .title {
+    font-size: 13px;
+  }
+  .stats .stats-col {
+    flex-direction: column;
+    text-align: center;
+  }
+  .stats .stats-col img {
+    margin: 0;
+  }
+}
+@media (min-width: 576px) {
+  .jumbotron .title {
+    font-size: 35px;
+  }
+  .jumbotron .sub-title {
+    font-size: 16px;
+  }
+  .stats .number {
+    font-size: 16px;
+  }
+  .stats .title {
+    font-size: 14px;
+  }
+  .stats .stats-col {
+    flex-direction: row;
+  }
+  .stats .stats-col img {
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .jumbotron .title {
+    font-size: 40px;
+  }
+  .jumbotron .sub-title {
+    font-size: 19px;
+  }
+}
+@media (min-width: 992px) {
+  .jumbotron {
+    text-align: left;
+  }
+  .jumbotron .title {
+    font-size: 50px;
+  }
+  .jumbotron .sub-title {
+    font-size: 16px;
+  }
+  .jumbotron .illustration {
+    margin-top: 0;
+  }
+  .stats .number {
+    font-size: 25px;
+  }
+  .stats .title {
+    font-size: 20px;
+  }
 }
