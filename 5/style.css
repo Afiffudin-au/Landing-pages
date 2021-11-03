@@ -2,6 +2,7 @@ html,
 body {
   font-family: 'Rubik', sans-serif;
 }
+
 .navbar .nav-item a {
   font-weight: normal;
   font-size: 16px;
@@ -24,6 +25,7 @@ body {
 
 .jumbotron {
   margin-top: 50px;
+  min-height: 450px;
 }
 .jumbotron .title {
   font-style: normal;
@@ -42,15 +44,16 @@ body {
   height: 60px;
   background-color: #f53838;
   color: white;
-  font-size: 16;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
   margin-top: 20px;
   letter-spacing: 1px;
+  box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -webkit-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -moz-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
 }
-.about {
-  margin-top: 80px;
-}
+
 .about .stats {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -97,6 +100,214 @@ body {
 .about .features {
   display: block;
 }
+.about .desc {
+  min-height: 600px;
+}
+.plans {
+  background: #f6f6f6;
+  min-height: 1100px;
+}
+.plans .title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #0b132a;
+  margin-top: 70px;
+}
+.plans .sub-title {
+  margin-top: 40px;
+  color: #4f5665;
+  font-weight: normal;
+  font-size: 16px;
+}
+.plans .card {
+  margin-bottom: 10px;
+  padding-top: 79.63px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  height: 760px;
+}
+.plans .card .img-box {
+  margin: auto;
+}
+.plans .card .card-title {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.plans .card .features {
+  text-align: center;
+}
+.plans .card .features p {
+  margin: 0;
+  margin-left: 15px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #4f5665;
+}
+.plans .card .license {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: #0b132a;
+  margin: 0;
+  margin-top: 40px;
+}
+.plans .card .btn-select {
+  border: 1px solid #f53855;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f53855;
+  width: 177.88px;
+  margin: auto;
+  height: 45px;
+}
+.plans .card .btn-select-fill {
+  width: 177.88px;
+  height: 45px;
+  background-color: #f53838;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  margin: auto;
+  box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -webkit-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -moz-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+}
+.informations {
+  background: #f6f6f6;
+  /* min-height: 1050px; */
+}
+.informations .title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #0b132a;
+}
+.informations .sub-title {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+}
+.reviews {
+  background: #f6f6f6;
+  min-height: 750px;
+}
+.reviews .title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #0b132a;
+}
+.reviews .sub-title {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+}
+.reviews .card-review {
+  padding: 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 2px solid #f53838;
+  box-sizing: border-box;
+  height: 100%;
+}
+.border-gray {
+  border: 2px solid #dddddd !important;
+}
+.reviews .card-review .bio .name {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 18px;
+}
+.reviews .card-review .bio .address {
+  color: #4f5665;
+  font-weight: normal;
+  font-size: 14px;
+}
+.reviews .card-review .rating .rate-number {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0b132a;
+}
+.reviews .card-review .profile-pic {
+  margin-right: 15px;
+}
+.reviews .card-review .comment p {
+  color: #0b132a;
+  font-weight: normal;
+  font-size: 16px;
+}
+.reviews .card-review p {
+  margin: 0;
+}
+.reviews .pagenation .box {
+  width: 45px;
+  height: 15px;
+  background: #f53838;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.reviews .pagenation .square {
+  width: 15px;
+  height: 15px;
+  border-radius: 99999px;
+  background: #dde0e4;
+  margin-right: 10px;
+}
+.reviews .pagenation .arrow-nav-left {
+  border: 2px solid #f53838;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.reviews .pagenation .arrow-nav-right {
+  background: #f53838;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.subs .subs-box {
+  margin-top: -130px;
+  padding-top: 58px;
+  padding-bottom: 58px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 27px 33px 0px;
+}
+.subs .btn-subs {
+  width: 250px;
+  height: 85.29px;
+  background-color: #f53838;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -webkit-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+  -moz-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
+}
+.big-footer {
+  background: #fb2626;
+}
 @media (min-width: 360px) {
   .jumbotron {
     text-align: center;
@@ -126,7 +337,9 @@ body {
   .about .desc {
     text-align: center;
   }
-
+  .informations {
+    min-height: 500px;
+  }
   .about .features {
     display: flex;
     flex-direction: column;
@@ -161,6 +374,9 @@ body {
   .jumbotron .sub-title {
     font-size: 19px;
   }
+  .informations {
+    min-height: 700px;
+  }
 }
 @media (min-width: 992px) {
   .jumbotron {
@@ -186,5 +402,8 @@ body {
   }
   .about .features {
     display: block;
+  }
+  .informations {
+    min-height: 1000px;
   }
 }
