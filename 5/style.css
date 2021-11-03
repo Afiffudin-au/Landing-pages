@@ -103,23 +103,23 @@ body {
 .about .desc {
   min-height: 600px;
 }
-.plans {
+.pricing {
   background: #f6f6f6;
   min-height: 1100px;
 }
-.plans .title {
+.pricing .title {
   font-weight: 500;
   font-size: 35px;
   color: #0b132a;
   margin-top: 70px;
 }
-.plans .sub-title {
+.pricing .sub-title {
   margin-top: 40px;
   color: #4f5665;
   font-weight: normal;
   font-size: 16px;
 }
-.plans .card {
+.pricing .pricing-card {
   margin-bottom: 10px;
   padding-top: 79.63px;
   padding-left: 70px;
@@ -128,29 +128,30 @@ body {
   box-sizing: border-box;
   border: 2px solid #dddddd;
   border-radius: 10px;
-  height: 760px;
+  height: 100%;
 }
-.plans .card .img-box {
+.pricing .pricing-card .img-box {
   margin: auto;
+  display: block;
 }
-.plans .card .card-title {
+.pricing .pricing-card .card-title {
   color: #0b132a;
   font-weight: 500;
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.plans .card .features {
+.pricing .pricing-card .features {
   text-align: center;
 }
-.plans .card .features p {
+.pricing .pricing-card .features p {
   margin: 0;
   margin-left: 15px;
   font-weight: normal;
   font-size: 14px;
   color: #4f5665;
 }
-.plans .card .license {
+.pricing .pricing-card .license {
   text-align: center;
   font-weight: 500;
   font-size: 25px;
@@ -158,7 +159,7 @@ body {
   margin: 0;
   margin-top: 40px;
 }
-.plans .card .btn-select {
+.pricing .pricing-card .btn-select {
   border: 1px solid #f53855;
   font-weight: 500;
   font-size: 16px;
@@ -166,8 +167,9 @@ body {
   width: 177.88px;
   margin: auto;
   height: 45px;
+  display: block;
 }
-.plans .card .btn-select-fill {
+.pricing .pricing-card .btn-select-fill {
   width: 177.88px;
   height: 45px;
   background-color: #f53838;
@@ -177,6 +179,7 @@ body {
   border-radius: 10px;
   margin-top: 20px;
   letter-spacing: 1px;
+  display: block;
   margin: auto;
   box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
   -webkit-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
@@ -196,21 +199,21 @@ body {
   font-size: 16px;
   color: #4f5665;
 }
-.reviews {
+.testimonials {
   background: #f6f6f6;
   min-height: 750px;
 }
-.reviews .title {
+.testimonials .title {
   font-weight: 500;
   font-size: 35px;
   color: #0b132a;
 }
-.reviews .sub-title {
+.testimonials .sub-title {
   font-weight: normal;
   font-size: 16px;
   color: #4f5665;
 }
-.reviews .card-review {
+.testimonials .testimonial-card {
   padding: 25px;
   border-radius: 10px;
   background: #ffffff;
@@ -221,47 +224,47 @@ body {
 .border-gray {
   border: 2px solid #dddddd !important;
 }
-.reviews .card-review .bio .name {
+.testimonials .testimonial-card .bio .name {
   color: #0b132a;
   font-weight: 500;
   font-size: 18px;
 }
-.reviews .card-review .bio .address {
+.testimonials .testimonial-card .bio .address {
   color: #4f5665;
   font-weight: normal;
   font-size: 14px;
 }
-.reviews .card-review .rating .rate-number {
+.testimonials .testimonial-card .rating .rate-number {
   font-weight: normal;
   font-size: 16px;
   color: #0b132a;
 }
-.reviews .card-review .profile-pic {
+.testimonials .testimonial-card .profile-pic {
   margin-right: 15px;
 }
-.reviews .card-review .comment p {
+.testimonials .testimonial-card .comment p {
   color: #0b132a;
   font-weight: normal;
   font-size: 16px;
 }
-.reviews .card-review p {
+.testimonials .testimonial-card p {
   margin: 0;
 }
-.reviews .pagenation .box {
+.testimonials .pagenation .box {
   width: 45px;
   height: 15px;
   background: #f53838;
   border-radius: 15px;
   margin-right: 10px;
 }
-.reviews .pagenation .square {
+.testimonials .pagenation .square {
   width: 15px;
   height: 15px;
   border-radius: 99999px;
   background: #dde0e4;
   margin-right: 10px;
 }
-.reviews .pagenation .arrow-nav-left {
+.testimonials .pagenation .arrow-nav-left {
   border: 2px solid #f53838;
   width: 60px;
   height: 60px;
@@ -271,7 +274,7 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
-.reviews .pagenation .arrow-nav-right {
+.testimonials .pagenation .arrow-nav-right {
   background: #f53838;
   width: 60px;
   height: 60px;
@@ -292,6 +295,11 @@ body {
   border-radius: 10px;
   box-shadow: rgb(100 100 111 / 20%) 0px 27px 33px 0px;
 }
+.subs .subs-box .subscribe-box {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
 .subs .btn-subs {
   width: 250px;
   height: 85.29px;
@@ -306,7 +314,30 @@ body {
   -moz-box-shadow: 0px 21px 34px 0px rgba(245, 56, 56, 0.5);
 }
 .big-footer {
-  background: #fb2626;
+  background: #f8f8f8;
+}
+.big-footer .logo {
+  margin-right: 10px;
+}
+.big-footer .desc {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
+}
+.big-footer .copyright {
+  color: #afb5c0;
+  font-weight: normal;
+  font-size: 16px;
+}
+.big-footer .footerStyleh6 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0b132a;
+}
+.big-footer .footerStyle {
+  font-weight: normal;
+  font-size: 16px;
+  color: #4f5665;
 }
 @media (min-width: 360px) {
   .jumbotron {
@@ -344,6 +375,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .pricing .margin-custom {
+    margin-bottom: 10px;
+  }
+  .subs .subs-box {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .subs .subs-box .subscribe-box {
+    justify-content: center;
+  }
+  .custom-align {
+    display: flex;
+    justify-content: start !important;
   }
 }
 
@@ -405,5 +450,15 @@ body {
   }
   .informations {
     min-height: 1000px;
+  }
+  .subs .subs-box .subscribe-box {
+    justify-content: end;
+  }
+  .subs .subs-box {
+    margin-top: -130px;
+  }
+  .custom-align {
+    display: flex;
+    justify-content: end !important;
   }
 }
